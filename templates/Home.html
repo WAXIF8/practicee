@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<a href="/showD"><button id="showDoctor">Show Doctor</button></a>
+<br>
+
+<button id="/showPatient"><a href="/showP">Show Patient</a> </button>
+<button id="/updateDoctor"><a href="/updateDoctor">Update doctor</a> </button>
+<button id="/updatePatient"><a href="/updatePatient">Update Patient</a> </button>
+
+
+
+<br><a href="/addDoctor" type="button"><button>Add Doctor</button></a>
+<form action="/addPatient" method="POST">
+    <button type="submit">Add Patient</button>
+</form>
+
+
+
+<form action="/deldoctor" method="POST">
+    <input type="text" name="docid">
+    <button type="submit" id="delsubmit">Delete Doctor</button>
+</form>
+
+
+
+
+<form action="/searchpt" method="POST">
+    <input type="text" name="name">
+    <button type="submit">Search patient by name</button>
+</form>
+
+
+
+<form action="/delpatient" method="POST">
+    <input type="text" name="pid">
+    <button type="submit" id="delp">Delete Patient</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
